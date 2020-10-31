@@ -1,0 +1,198 @@
+.service-button{
+    padding: 15px 40px;
+    border-radius: 25px;
+    background-color:#007baa;;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+#foSpan{
+    color: #fff;;
+    font-size: 20px;
+    padding: 5px 6px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-top: 6px;
+}
+
+ a{
+     text-decoration: none;
+ }
+
+.btnsucess-no-bg{
+    padding: 10px 20px;
+    border-radius: 20px;
+    color:#007baa;;
+    border: 1px solid#007baa;;
+}
+
+.btnsucess-no-bg:hover{
+   color: #fff;
+    background-color:#007baa;
+    border: 1px solid#007baa;
+}
+
+details{
+    font-size: 14px;
+    background-color: #efefef;
+    border-radius: 5px;
+    margin-bottom: 2px;
+   
+   
+}
+summary{
+    padding: 5px 6px;
+    background-color: #fff;
+    border-bottom: 1px solid #efefef;
+    margin: 10px 0px;
+    box-shadow: 0 2px 4px #ccc;
+    outline: none;
+    
+    
+}
+#error_message{ 
+    padding: 0px;
+    color: #f3737e;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+mark{
+    background-color: #f0ffe8;
+    font-weight: 500;
+    padding: 1px 5px;
+    border-radius: 5px;
+    color:#007baa;
+}
+.login{
+    background-color: #007baa;
+    color: #fff;
+    padding: 5px 12px;
+}
+
+
+#login:hover{
+   color: #fff;
+}
+
+/*********** Modalshow **********/
+
+
+/*******************************/
+details p{
+    padding: 20px;
+}
+/**** ASSETS *****/
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 0px 7px #ccc;
+}
+#w30{width: 30%;}
+.bg-blue{background-color: #007baa;}
+.bg-twiter{background-color: rgb(147, 217, 238);}
+.bg-in{background-color: rgb(36, 36, 124);}
+.bg-insta{background-color: rgb(223, 89, 116);}
+.quoteBtn{
+    position: absolute;
+    right: 10px;
+   background-color:#007baa;;
+   padding: 15px 20px;
+   color: #fff;
+   border-radius: 50px;
+   top:30%
+}
+.quoteBtn:hover{
+   background-color:#007baabb;
+}
+#spanicon{
+    font-size: 25px;
+    padding:20px
+}
+#contactReport{
+    font-size:14px;
+    color:rgb(172, 78, 78);
+    padding:7px 20px;
+    background:rgba(214, 125, 125, 0.336);
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+#bt-1{border-top: 1px solid rgba(204, 204, 204, 0.61);}
+#noborder{border: none;}
+#light{color: #fff;padding: 4px 5px; border-radius: 3px;}
+#nobgclr{background-color: #fff;}
+#nopadding{padding: 0;}
+#footerBottom{
+    border: none;
+    background:#23262991;
+    padding: 30px 30px;
+    
+}
+
+#footerBottom .newsletterBlock p{
+    color: #aaa;
+    font-size: 14px;
+}
+#footerBottom .newsletterBlock p a{
+    margin: 0px 5px;
+}
+#spacebetween{
+    justify-content: space-between;
+}
+#flex1{
+    flex: 1;
+    font-size: 15px;
+    margin: 10px;
+}
+.bg-defautlt{
+    background-color:#007baa;;
+}
+.shadow{
+    box-shadow: 1px 1px 5px #ccc;
+    padding: 20px 30px;
+    text-indent: 20px;
+}
+.shadow p{
+    line-height: 25px;
+    color: #fff;
+}
+
+
+
+/***** Animations *****/
+.slideToRight{
+    animation-name: slideToRight;
+    animation-duration: 0.6s;
+}
+@keyframes slideToRight {
+    from{
+        margin-left: -150px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+.slideToLeft{
+    animation-name: slideToLeft;
+    animation-duration: 0.6s;
+}
+@keyframes slideToLeft {
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: -250px;
+    }
+}
+
+/**** Only for Contact page box with class w30 ***/
+@media(max-width:520px){
+    #w30{
+        width: 100%;
+    }
+}

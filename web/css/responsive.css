@@ -1,0 +1,199 @@
+/**** Blog Page ***/
+
+
+
+@media(max-width:520px){
+    .blog{
+        width: 100%;
+        padding: 20px;
+    }
+    .blog .blogContainer{
+        width: 100%;
+        padding: 10px;
+        display: block;
+        border: none;
+        box-shadow: none;
+    }
+    .blog .blogContainer .posts{
+        width: 100%; 
+        border: none;  
+        box-shadow: none;     
+    }
+   
+    .blog .blogContainer .posts .post .postImage{
+        height: 300px;
+    
+    }
+    .blog .blogContainer .posts .post .postImage img{
+        height: 90%;
+    }
+    .blog .blogContainer .posts .post .postImage .date{
+        top: 75%;
+    }
+   .blog .blogContainer .posts .post .publisher .image{
+        width: 21%;
+        margin-right: 18px;
+        height: 90px;
+        overflow: hidden; 
+        border-radius: 2px;
+     }
+     .blog .blogContainer .posts .post .relatedPubs .content{
+        width: 100%;
+        display: block;
+        padding: 10px 0px;
+     }
+    .blog .blogContainer .posts .post .relatedPubs .content .pub .image{
+        width: 60px;
+        border-radius: 2px;
+     }
+    .blog .blogContainer  .others{
+       display: block;
+        width: 100%;
+        margin: 0;
+    }  
+    .blog .blogContainer .posts .pagination{
+       text-align: center;
+    }
+    
+    .blog .blogContainer .posts .pagination a{
+        padding: 5px 12px;
+        text-align: center;
+        margin-right: 2px;
+    
+    }
+
+    /*** USEr leave comment ***/
+.blog .blogContainer .posts .post .userComent{
+    width:  100%;
+   }
+   
+   .blog .blogContainer .posts .post .userComent .heading{
+       border-bottom: 1px solid #eae8ee;
+       padding: 5px 0px;
+       margin-bottom: 20px;
+   }
+   .blog .blogContainer .posts .post .userComent .userCommentBody{
+       padding: 10px 0px;
+   }
+   .blog .blogContainer .posts .post .userComent .userCommentBody form{
+       width: 100%;
+   }
+   
+ 
+   
+   .blog .blogContainer .posts .post .userComent .userCommentBody form .inputs{
+       width: 100%;
+       display: block;
+       justify-content: space-between;
+       align-items: flex-start;
+   }
+   
+   .blog .blogContainer .posts .post .userComent .userCommentBody form .inputs input{
+     width:  100%;
+   }
+   
+   .blog .blogContainer .posts .post .userComent .userCommentBody form .inputs input:nth-child(even){
+        margin-bottom: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+}
+
+
+
+@media(max-width:768px){
+
+
+
+    header .mainNav{
+        display: flex;
+    }
+    
+    header .mainNav .mainNavBrand{
+        width: auto;
+    }
+    header .mainNav .mainNavBrand h4{
+       color:rgba(255, 255, 255, 0.651);
+       font-weight: normal;
+       font-size: 15px;
+       margin-left: 20px;
+       font-weight: bold;
+    }
+    header .mainNav .mainNavInfo{
+        width: auto;
+        align-items: flex-end;
+    }
+    header .mainNav .mainNavInfo li{
+        float: right;
+        margin: 0 10px;
+        list-style-type: none;
+        font-size: 12px;
+        color: rgba(255,255,255,.4);;
+        font-weight: bold;
+    }
+    
+    header .mainNav .mainNavInfo li span{
+       background-color: rgba(255,255,255,.4);;
+       color: #fff;
+       padding: 3px 5px;
+       border-radius: 3px;
+    }
+    
+
+
+
+
+    #menuToHide{
+        display: none;
+    }
+    .blog{
+        width: 100%;
+        padding: 20px;
+    }
+    .blog .blogContainer{
+        width: 100%;
+        padding: 10px;
+        display: block;
+        border: none;
+        box-shadow: none;
+    }
+    .blog .blogContainer .posts{
+        width: 100%; 
+        border: none;  
+        box-shadow: none;     
+    }
+    .blog .blogContainer .posts .post{
+        margin-bottom: 30px;
+        border: none;
+    }
+    .blog .blogContainer .posts .post .postImage{
+        max-height: 400px;
+        height: 300px;
+    }
+    .blog .blogContainer .posts .post .postImage img{
+        height: 95%;
+    }
+  
+   .blog .blogContainer .posts .post .publisher .image{
+        width: 21%;
+        margin-right: 18px;
+        height: 90px;
+        overflow: hidden; 
+        border-radius: 2px;
+     }
+     .blog .blogContainer .posts .post .relatedPubs .content{
+        width: 100%;
+        display: block;
+        padding: 10px 0px;
+     }
+    .blog .blogContainer .posts .post .relatedPubs .content .pub .image{
+        width: 60px;
+        border-radius: 2px;
+     }
+    .blog .blogContainer  .others{
+       display: block;
+        width: 100%;
+        margin: 0;
+    } 
+}
